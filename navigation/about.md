@@ -6,3 +6,5 @@ permalink: /about/
 
 Creator of Student 2025 - Nolan Yu 
 
+AP Computer Science Principles
+Period: 2 
