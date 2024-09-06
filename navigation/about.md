@@ -40,7 +40,7 @@ Period: 2
         .description {
             margin-top: 20px;
             font-size: 18px;
-            color: #333;
+            color: #222;
         }
     </style>
 </head>
@@ -58,6 +58,6 @@ Period: 2
 </body>
 </html>
  <li>🇨🇳 <strong>Nationality:</strong> Chinese</li>
-        <li>🎂 <strong>Age:</strong> 15 years old</li>
-        <li>🎓 <strong>Education:</strong> Sophomore at Del Norte High School</li>
-        <li>🌍 <strong>Location:</strong> California, USA</li>
+<li>🎂 <strong>Age:</strong> 15 years old</li>
+<li>🎓 <strong>Education:</strong> Sophomore at Del Norte High School</li>
+<li>🌍 <strong>Location:</strong> California, USA</li>
