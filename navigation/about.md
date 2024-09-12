@@ -14,14 +14,37 @@ Period: 2
 <h1 style="text-align: center;">Flags of California and China</h1>
 <p class="description" style="text-align: center;">Hello, I am Nolan Yu.</p>
 
-<div class="flag-container" style="text-align: center;">
-    <h2>California State Flag</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="California State Flag" width="200">
-</div>
+<style>
+  /* Set the background to light blue */
+  body {
+      background-color: #add8e6; /* Light blue */
+  }
 
-<div class="flag-container" style="text-align: center;">
-    <h2>China National Flag</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg" alt="China National Flag" width="200">
+  /* Flexbox for horizontal alignment of flags */
+  .flag-container-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* Space between flags */
+      margin-bottom: 20px;
+  }
+
+  /* Style individual flag containers */
+  .flag-container {
+      text-align: center;
+  }
+</style>
+
+<!-- Flag containers in a flexbox wrapper -->
+<div class="flag-container-wrapper">
+    <div class="flag-container">
+        <h2>California State Flag</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="California State Flag" width="200">
+    </div>
+
+    <div class="flag-container">
+        <h2>China National Flag</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg" alt="China National Flag" width="200">
+    </div>
 </div>
 
 <h2 style="text-align: center;">Interests and Family</h2>
@@ -32,8 +55,9 @@ Period: 2
     I aspire to go to a good college.
 </p>
 
-<li style="text-align: center;">🇨🇳 <strong>Nationality:</strong> Chinese</li>
-<li style="text-align: center;">🎂 <strong>Age:</strong> 15 years old</li>
-<li style="text-align: center;">🎓 <strong>Education:</strong> Sophomore at Del Norte High School</li>
-<li style="text-align: center;">🌍 <strong>Location:</strong> California, USA</li>
-
+<ul style="text-align: center; list-style-type: none; padding: 0;">
+    <li>🇨🇳 <strong>Nationality:</strong> Chinese</li>
+    <li>🎂 <strong>Age:</strong> 15 years old</li>
+    <li>🎓 <strong>Education:</strong> Sophomore at Del Norte High School</li>
+    <li>🌍 <strong>Location:</strong> California, USA</li>
+</ul>
