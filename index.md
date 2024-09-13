@@ -1,4 +1,5 @@
 ---
+{% include nav/home.html %}
 layout: base
 title: Nolan's Home 
 description: Home Page
