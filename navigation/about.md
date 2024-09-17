@@ -45,6 +45,8 @@ Period: 2
         <h2>China National Flag</h2>
         <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg" alt="China National Flag" width="200">
     </div>
+
+
 </div>
 
 <h2 style="text-align: center;">Interests and Family</h2>
@@ -61,3 +63,7 @@ Period: 2
     <li>🎓 <strong>Education:</strong> Sophomore at Del Norte High School</li>
     <li>🌍 <strong>Location:</strong> California, USA</li>
 </ul>
+
+<img src="{{site.baseurl}}/images/cutie_nolan.jpg" height="auto" width="auto" class="center">
+
+<img src="{{site.baseurl}}/images/cutie_ethan&nolan.jpg" height="auto" width="auto" class="center">
