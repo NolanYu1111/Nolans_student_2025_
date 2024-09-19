@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+comments: true
 ---
 
 Creator of Student 2025 - Nolan Yu 
@@ -68,10 +69,4 @@ Period: 2
 
 <img src="{{site.baseurl}}/images/cutie_ethan&nolan.jpg" height="auto" width="auto" class="center">
 
-<script src="https://utteranc.es/client.js"
-        repo="[ENTER REPO HERE]"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+

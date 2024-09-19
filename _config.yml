@@ -3,8 +3,8 @@ title: Nighthawk Pages
 description: "Class of 2025"
 owner_name: Nolan Yu
 github_username: NolanYu1111
-github_repo: "Nolan_student_2025_" 
-baseurl: "/Nolan_student_2025_"
+github_repo: "Nolans_student_2025_" 
+baseurl: "/Nolans_student_2025_"
 future: true
 remote_theme: jekyll/minima
 minima:
