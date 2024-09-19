@@ -50,13 +50,3 @@ Nolan's journey starts here - Kickin' Projects
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
