@@ -67,3 +67,11 @@ Period: 2
 <img src="{{site.baseurl}}/images/cutie_nolan.jpg" height="auto" width="auto" class="center">
 
 <img src="{{site.baseurl}}/images/cutie_ethan&nolan.jpg" height="auto" width="auto" class="center">
+
+<script src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
