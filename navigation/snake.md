@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: Snake
-description: Snake Games
+description: Snake Game
 permalink: /snake/
 ---
 
