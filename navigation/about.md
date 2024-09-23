@@ -60,7 +60,7 @@ Period: 2
 
 <ul style="text-align: center; list-style-type: none; padding: 0;">
     <li>🇨🇳 <strong>Nationality:</strong> Chinese</li>
-    <li>🎂 <strong>Age:</strong> 15 years old</li>
+    <li>🎂 <strong>Age:</strong> 16 years old</li>
     <li>🎓 <strong>Education:</strong> Sophomore at Del Norte High School</li>
     <li>🌍 <strong>Location:</strong> California, USA</li>
 </ul>
