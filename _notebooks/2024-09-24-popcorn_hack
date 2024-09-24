@@ -1,0 +1,11 @@
+# Popcorn Hack Cell
+
+# Run this cell to define the variables in Python
+
+n = 10
+name = "Gerald"
+fav_food = "Cookies"
+
+# Complete the Popcorn Hack from the Variables cell
+
+# How could you tell if Python is storing the variables correctly?
