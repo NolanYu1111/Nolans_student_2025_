@@ -8,10 +8,6 @@ hide: true
 
 Nolan's journey starts here - Kickin' Projects
 
-{% include nav/home.html %}
-
-# Welcome to My Soccer-Themed Page!
-
 <style>
   /* Change background color to light grey */
    {
