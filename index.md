@@ -54,48 +54,114 @@ Nolan's journey starts here - Kickin' Projects
         async>
 </script>
 
-# Your Page Title
-
-<!-- Dropdown Menu HTML -->
-<div class="dropdown">
-  <button class="dropbtn">Chapter 3 Subtitles</button>
-  <div class="dropdown-content">
-    <a href="#3.1">3.1 Subtitle</a>
-    <a href="#3.2">3.2 Subtitle</a>
-    <a href="#3.3">3.3 Subtitle</a>
-    <a href="#3.4">3.4 Subtitle</a>
-    <a href="#3.5">3.5 Subtitle</a>
-    <a href="#3.6">3.6 Subtitle</a>
-    <a href="#3.7">3.7 Subtitle</a>
-    <a href="#3.8">3.8 Subtitle</a>
-    <a href="#3.10">3.10 Subtitle</a>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Main container: 3x3 Grid */
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px; /* Push the grid inward by 20px from all sides */
+}
+  /* Each menu */
+  .menu {
+    width: 300px;
+    border-radius: 8px;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s; /* Add hover animation */
+  }
+  .menu:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  .menu-title {
+    background-color: #444;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  .menu-title:hover {
+    background-color: #555;
+  }
+  .menu-content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #222;
+    transition: max-height 0.5s ease-out;
+    padding: 0 15px;
+  }
+  .menu-content.open {
+    max-height: 100px;
+    padding: 15px;
+  }
+</style>
+<div class="main-container">
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent1')">Menu 1</div>
+    <div class="menu-content" id="menuContent1">
+      <p>Content for Menu 1</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent2')">Menu 2</div>
+    <div class="menu-content" id="menuContent2">
+      <p>Content for Menu 2</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent3')">Menu 3</div>
+    <div class="menu-content" id="menuContent3">
+      <p>Content for Menu 3</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent4')">Menu 4</div>
+    <div class="menu-content" id="menuContent4">
+      <p>Content for Menu 4</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent5')">Menu 5</div>
+    <div class="menu-content" id="menuContent5">
+      <p>Content for Menu 5</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent6')">Menu 6</div>
+    <div class="menu-content" id="menuContent6">
+      <p>Content for Menu 6</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent7')">Menu 7</div>
+    <div class="menu-content" id="menuContent7">
+      <p>Content for Menu 7</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent8')">Menu 8</div>
+    <div class="menu-content" id="menuContent8">
+      <p>Content for Menu 8</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent9')">Menu 9</div>
+    <div class="menu-content" id="menuContent9">
+      <p>Content for Menu 9</p>
+    </div>
   </div>
 </div>
-
-<!-- Content -->
-## 3.1 Subtitle
-Content for 3.1 goes here.
-
-## 3.2 Subtitle
-Content for 3.2 goes here.
-
-## 3.3 Subtitle
-Content for 3.3 goes here.
-
-## 3.4 Subtitle
-Content for 3.4 goes here.
-
-## 3.5 Subtitle
-Content for 3.5 goes here.
-
-## 3.6 Subtitle
-Content for 3.6 goes here.
-
-## 3.7 Subtitle
-Content for 3.7 goes here.
-
-## 3.8 Subtitle
-Content for 3.8 goes here.
-
-## 3.10 Subtitle
-Content for 3.10 goes here.
+<script>
+  function toggleMenu(contentId) {
+    const content = document.getElementById(contentId);
+    content.classList.toggle('open');
+  }
+</script>
