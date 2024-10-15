@@ -54,6 +54,9 @@ Nolan's journey starts here - Kickin' Projects
         async>
 </script>
 
+Sprint 2 overviews of lessons
+
+
 <style>
   * {
     margin: 0;
