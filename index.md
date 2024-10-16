@@ -57,119 +57,119 @@ Nolan's journey starts here - Kickin' Projects
 Sprint 2 overviews of lessons
 
 
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  /* Main container: 3x3 Grid */
-  .main-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin: 20px;
-  }
-  /* Each menu */
-  .menu {
-    width: 300px;
-    border-radius: 8px;
-    background-color: #333;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    transition: transform 0.2s;
-  }
-  .menu:hover {
-    transform: scale(1.05);
-  }
-  .menu-title {
-    background-color: #444;
-    padding: 15px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    transition: background-color 0.3s;
-  }
-  .menu-title:hover {
-    background-color: #555;
-  }
-  .menu-content {
-    max-height: 0;
-    overflow: hidden;
-    background-color: #222;
-    transition: max-height 0.5s ease-out;
-    padding: 0 15px;
-  }
-  .menu-content.open {
-    max-height: 200px;
-    padding: 15px;
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Boxes</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-<div class="main-container">
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent1')">Box 1</div>
-    <div class="menu-content" id="menuContent1">
-      <p>Description for Box 1</p>
-    </div>
-  </div>
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent2')">Box 2</div>
-    <div class="menu-content" id="menuContent2">
-      <p>Description for Box 2</p>
-    </div>
-  </div>
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent3')">Box 3</div>
-    <div class="menu-content" id="menuContent3">
-      <p>Description for Box 3</p>
-    </div>
-  </div>
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent4')">Box 4</div>
-    <div class="menu-content" id="menuContent4">
-      <p>Description for Box 4</p>
-    </div>
-  </div>
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent5')">Box 5</div>
-    <div class="menu-content" id="menuContent5">
-      <p>Description for Box 5</p>
-    </div>
-  </div>
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent6')">Box 6</div>
-    <div class="menu-content" id="menuContent6">
-      <p>Description for Box 6</p>
-    </div>
-  </div>
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent7')">Box 7</div>
-    <div class="menu-content" id="menuContent7">
-      <p>Description for Box 7</p>
-    </div>
-  </div>
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent8')">Box 8</div>
-    <div class="menu-content" id="menuContent8">
-      <p>Description for Box 8</p>
-    </div>
-  </div>
-  <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent9')">Box 9</div>
-    <div class="menu-content" id="menuContent9">
-      <p>Description for Box 9</p>
-    </div>
-  </div>
-</div>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            max-width: 900px;
+        }
 
-<script>
-  function toggleMenu(contentId) {
-    const content = document.getElementById(contentId);
-    content.classList.toggle('open');
-  }
-</script>
+        .box {
+            background-color: #222;
+            color: #00bfff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+
+        .box:hover {
+            background-color: #333;
+        }
+
+        .box:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .tooltip {
+            visibility: hidden;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            padding: 5px 10px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 120%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1;
+        }
+
+        .tooltip::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="box" onclick="window.location.href='https://example.com/variables'">
+            Variables
+            <div class="tooltip">Variables store data values.</div>
+        </div>
+        <div class="box" onclick="window.location.href='https://example.com/data-abstraction'">
+            Data Abstraction
+            <div class="tooltip">Data Abstraction hides complexity by using data models.</div>
+        </div>
+        <div class="box" onclick="window.location.href='https://example.com/math-expressions'">
+            Mathematical Expressions
+            <div class="tooltip">Mathematical expressions involve calculations and operations.</div>
+        </div>
+        <div class="box" onclick="window.location.href='https://example.com/strings'">
+            Strings
+            <div class="tooltip">Strings represent text in programming.</div>
+        </div>
+        <div class="box" onclick="window.location.href='https://example.com/boolean-expressions'">
+            Boolean Expressions
+            <div class="tooltip">Boolean expressions evaluate to true or false.</div>
+        </div>
+        <div class="box" onclick="window.location.href='https://example.com/conditionals'">
+            Conditionals
+            <div class="tooltip">Conditionals control the flow of a program based on conditions.</div>
+        </div>
+        <div class="box" onclick="window.location.href='https://example.com/nested-conditionals'">
+            Nested Conditionals
+            <div class="tooltip">Nested conditionals are conditionals within conditionals.</div>
+        </div>
+        <div class="box" onclick="window.location.href='https://example.com/iteration'">
+            Iteration
+            <div class="tooltip">Iteration repeats actions or operations.</div>
+        </div>
+        <div class="box" onclick="window.location.href='https://example.com/list-operations'">
+            List Operations
+            <div class="tooltip">List operations involve manipulating lists or arrays.</div>
+        </div>
+    </div>
+</body>
+</html>
+
 
 
 
