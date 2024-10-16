@@ -56,136 +56,127 @@ Nolan's journey starts here - Kickin' Projects
 
 Sprint 2 overviews of lessons
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown Boxes</title>
+    <title>Programming Topics</title>
     <style>
         body {
-            background-color: #1e1e1e;
-            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
+            background-color: #2c2c2c;
+            color: #fff;
+            font-family: Arial, sans-serif;
         }
 
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 20px;
-            max-width: 900px;
-            width: 100%;
-        }
-
-        .box {
-            background-color: #222;
-            color: #00bfff;
+        .container {
             text-align: center;
-            padding: 20px;
-            border-radius: 10px;
+        }
+
+        .title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #4caf50;
+        }
+
+        .topics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .topic {
+            background-color: #333;
+            padding: 15px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            position: relative;
             cursor: pointer;
             transition: background-color 0.3s;
-            position: relative;
         }
 
-        .box:hover {
-            background-color: #333;
-        }
-
-        .box:hover .tooltip {
-            visibility: visible;
-            opacity: 1;
-        }
-
-        .tooltip {
-            visibility: hidden;
+        .topic:hover {
             background-color: #555;
-            color: #fff;
-            text-align: center;
-            padding: 5px 10px;
+        }
+
+        .description {
+            display: none;
+            position: absolute;
+            bottom: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #222;
+            padding: 10px;
+            border: 1px solid #444;
             border-radius: 5px;
-            position: absolute;
-            bottom: 120%;
-            left: 50%;
-            transform: translateX(-50%);
-            opacity: 0;
-            transition: opacity 0.3s;
-            z-index: 1;
+            white-space: nowrap;
         }
 
-        .tooltip::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            border-width: 5px;
-            border-style: solid;
-            border-color: #555 transparent transparent transparent;
+        .topic:hover .description {
+            display: block;
         }
 
-        /* Responsive design for smaller screens */
-        @media (max-width: 768px) {
-            .grid-container {
-                grid-template-columns: repeat(2, 1fr);
-            }
+        .link-button {
+            margin-top: 20px;
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
         }
 
-        @media (max-width: 480px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-            }
+        .link-button:hover {
+            background-color: #0073e6;
         }
     </style>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="box" onclick="window.open('https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/07/3.1homeworkhackpopcornhack_IPYNB_2_.html', '_blank')">
-            Variables
-            <div class="tooltip">Variables store data values.</div>
+    <div class="container">
+        <div class="title">Programming Topics</div>
+        <div class="topics">
+            <div class="topic" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/07/3.1homeworkhackpopcornhack_IPYNB_2_.html'">
+                Unit 1 — Data Types
+                <div class="description">Learn about various data types in programming.</div>
+            </div>
+            <div class="topic" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/08/3.2.1homeworkandpopcornhacks_IPYNB_2_.html'">
+                Unit 2 — Using Objects
+                <div class="description">Understand how to work with objects.</div>
+            </div>
+            <div class="topic" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/09/3-3-and-5homework_IPYNB_2_.html'">
+                Unit 3 — Boolean Expressions
+                <div class="description">Explore the fundamentals of Boolean logic.</div>
+            </div>
+            <div class="topic" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/08/3.4homeworkhack_IPYNB_2_.html'">
+                Unit 4 — Iteration
+                <div class="description">Learn about loops and iterative processes.</div>
+            </div>
+            <div class="topic" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/09/3-3-and-5homework_IPYNB_2_.html'">
+                Unit 5 — Writing Classes
+                <div class="description">Discover how to write and structure classes.</div>
+            </div>
+            <div class="topic" onclick="window.location.href='https://kush1434.github.io/portfolio_2025/csp/big-idea/p2/3-6'">
+                Unit 6 — Arrays
+                <div class="description">Work with arrays to store data efficiently.</div>
+            </div>
+            <div class="topic" onclick="window.location.href='https://kush1434.github.io/portfolio_2025/csp/big-idea/p2/3-7'">
+                Unit 7 — ArrayLists
+                <div class="description">Use ArrayLists for dynamic data storage.</div>
+            </div>
+            <div class="topic" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/04/3.8homeworkpopcornhack_IPYNB_2_.html'">
+                Unit 8 — 2D Arrays
+                <div class="description">Learn about multi-dimensional data structures.</div>
+            </div>
+            <div class="topic" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/04/3.10homeworkandpopcornhacks(1)_IPYNB_2_.html'">
+                Unit 9 — Java Inheritance
+                <div class="description">Understand the concept of inheritance in Java.</div>
+            </div>
         </div>
-        <div class="box" onclick="window.open('https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/08/3.2.1homeworkandpopcornhacks_IPYNB_2_.html', '_blank')">
-            Data Abstraction
-            <div class="tooltip">Data Abstraction hides complexity by using data models.</div>
-        </div>
-        <div class="box" onclick="window.open('https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/09/3-3-and-5homework_IPYNB_2_.html', '_blank')">
-            Mathematical Expressions
-            <div class="tooltip">Mathematical expressions involve calculations and operations.</div>
-        </div>
-        <div class="box" onclick="window.open('https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/08/3.4homeworkhack_IPYNB_2_.html', '_blank')">
-            Strings
-            <div class="tooltip">Strings represent text in programming.</div>
-        </div>
-        <div class="box" onclick="window.open('https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/09/3-3-and-5homework_IPYNB_2_.html', '_blank')">
-            Boolean Expressions
-            <div class="tooltip">Boolean expressions evaluate to true or false.</div>
-        </div>
-        <div class="box" onclick="window.open('https://kush1434.github.io/portfolio_2025/csp/big-idea/p2/3-6', '_blank')">
-            Conditionals
-            <div class="tooltip">Conditionals control the flow of a program based on conditions.</div>
-        </div>
-        <div class="box" onclick="window.open('https://kush1434.github.io/portfolio_2025/csp/big-idea/p2/3-7', '_blank')">
-            Nested Conditionals
-            <div class="tooltip">Nested conditionals are conditionals within conditionals.</div>
-        </div>
-        <div class="box" onclick="window.open('https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/04/3.8homeworkpopcornhack_IPYNB_2_.html', '_blank')">
-            Iteration
-            <div class="tooltip">Iteration repeats actions or operations.</div>
-        </div>
-        <div class="box" onclick="window.open('https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/04/3.10homeworkandpopcornhacks(1)_IPYNB_2_.html', '_blank')">
-            List Operations
-            <div class="tooltip">List operations involve manipulating lists or arrays.</div>
-        </div>
+        <a class="link-button" href="https://github.com/NolanYu1111/Nolans_student_2025_/issues/3">Go to My Issue</a>
     </div>
 </body>
 </html>
-
-
-
-
-
 
