@@ -110,7 +110,11 @@ Sprint 2 overviews of lessons
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent1')">Menu 1</div>
     <div class="menu-content" id="menuContent1">
-      <p>Content for Menu 1</p>
+      <p>Python:
+• Doesn't need declaration keywords
+• Dynamic typing Javascript:
+• Hoisting
+• Dynamic typing</p>
     </div>
   </div>
   <div class="menu">
