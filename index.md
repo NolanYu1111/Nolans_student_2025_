@@ -129,39 +129,39 @@ Sprint 2 overviews of lessons
 </head>
 <body>
     <div class="grid-container">
-        <div class="box" onclick="window.location.href='https://example.com/variables'">
+        <div class="box" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/07/3.1homeworkhackpopcornhack_IPYNB_2_.html>
             Variables
             <div class="tooltip">Variables store data values.</div>
         </div>
-        <div class="box" onclick="window.location.href='https://example.com/data-abstraction'">
+        <div class="box" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/08/3.2.1homeworkandpopcornhacks_IPYNB_2_.html>
             Data Abstraction
             <div class="tooltip">Data Abstraction hides complexity by using data models.</div>
         </div>
-        <div class="box" onclick="window.location.href='https://example.com/math-expressions'">
+        <div class="box" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/09/3-3-and-5homework_IPYNB_2_.html>
             Mathematical Expressions
             <div class="tooltip">Mathematical expressions involve calculations and operations.</div>
         </div>
-        <div class="box" onclick="window.location.href='https://example.com/strings'">
+        <div class="box" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/08/3.4homeworkhack_IPYNB_2_.html>
             Strings
             <div class="tooltip">Strings represent text in programming.</div>
         </div>
-        <div class="box" onclick="window.location.href='https://example.com/boolean-expressions'">
+        <div class="box" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/09/3-3-and-5homework_IPYNB_2_.html>
             Boolean Expressions
             <div class="tooltip">Boolean expressions evaluate to true or false.</div>
         </div>
-        <div class="box" onclick="window.location.href='https://example.com/conditionals'">
+        <div class="box" onclick="window.location.href='https://kush1434.github.io/portfolio_2025/csp/big-idea/p2/3-6>
             Conditionals
             <div class="tooltip">Conditionals control the flow of a program based on conditions.</div>
         </div>
-        <div class="box" onclick="window.location.href='https://example.com/nested-conditionals'">
+        <div class="box" onclick="window.location.href='https://kush1434.github.io/portfolio_2025/csp/big-idea/p2/3-7>
             Nested Conditionals
             <div class="tooltip">Nested conditionals are conditionals within conditionals.</div>
         </div>
-        <div class="box" onclick="window.location.href='https://example.com/iteration'">
+        <div class="box" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/04/3.8homeworkpopcornhack_IPYNB_2_.html>
             Iteration
             <div class="tooltip">Iteration repeats actions or operations.</div>
         </div>
-        <div class="box" onclick="window.location.href='https://example.com/list-operations'">
+        <div class="box" onclick="window.location.href='https://nolanyu1111.github.io/Nolans_student_2025_/2024/10/04/3.10homeworkandpopcornhacks(1)_IPYNB_2_.html>
             List Operations
             <div class="tooltip">List operations involve manipulating lists or arrays.</div>
         </div>
