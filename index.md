@@ -57,7 +57,6 @@ Nolan's journey starts here - Kickin' Projects
 Sprint 2 overviews of lessons
 
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
