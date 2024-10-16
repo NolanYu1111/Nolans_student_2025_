@@ -110,65 +110,59 @@ Sprint 2 overviews of lessons
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent1')">Menu 1</div>
     <div class="menu-content" id="menuContent1">
-      <p>Python:
-• Doesn't need declaration keywords
-• Dynamic typing Javascript:
-• Hoisting
-• Dynamic typing</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/python.html" target="_blank">Python</a></p>
     </div>
   </div>
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent2')">Menu 2</div>
     <div class="menu-content" id="menuContent2">
-      <p>Content for Menu 2</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/html.html" target="_blank">HTML</a></p>
     </div>
   </div>
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent3')">Menu 3</div>
     <div class="menu-content" id="menuContent3">
-      <p>Content for Menu 3</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/css.html" target="_blank">CSS</a></p>
     </div>
   </div>
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent4')">Menu 4</div>
     <div class="menu-content" id="menuContent4">
-      <p>Content for Menu 4</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/javascript.html" target="_blank">JavaScript</a></p>
     </div>
   </div>
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent5')">Menu 5</div>
     <div class="menu-content" id="menuContent5">
-      <p>Content for Menu 5</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/git.html" target="_blank">Git</a></p>
     </div>
   </div>
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent6')">Menu 6</div>
     <div class="menu-content" id="menuContent6">
-      <p>Content for Menu 6</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/vscode.html" target="_blank">VS Code</a></p>
     </div>
   </div>
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent7')">Menu 7</div>
     <div class="menu-content" id="menuContent7">
-      <p>Content for Menu 7</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/github.html" target="_blank">GitHub</a></p>
     </div>
   </div>
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent8')">Menu 8</div>
     <div class="menu-content" id="menuContent8">
-      <p>Content for Menu 8</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/markdown.html" target="_blank">Markdown</a></p>
     </div>
   </div>
   <div class="menu">
     <div class="menu-title" onclick="toggleMenu('menuContent9')">Menu 9</div>
     <div class="menu-content" id="menuContent9">
-      <p>Content for Menu 9</p>
+      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals/bash.html" target="_blank">Bash</a></p>
     </div>
   </div>
 </div>
 <script>
   function toggleMenu(contentId) {
-    const content = document.getElementById(contentId);
-    content.classList.toggle('open');
-  }
-</script>
+    const content =
+
