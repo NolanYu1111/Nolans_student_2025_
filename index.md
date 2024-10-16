@@ -68,7 +68,7 @@ Sprint 2 overviews of lessons
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    margin: 20px; /* Push the grid inward by 20px from all sides */
+    margin: 20px;
   }
   /* Each menu */
   .menu {
@@ -77,10 +77,10 @@ Sprint 2 overviews of lessons
     background-color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    transition: transform 0.2s; /* Add hover animation */
+    transition: transform 0.2s;
   }
   .menu:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05);
   }
   .menu-title {
     background-color: #444;
@@ -102,23 +102,74 @@ Sprint 2 overviews of lessons
     padding: 0 15px;
   }
   .menu-content.open {
-    max-height: 100px;
+    max-height: 200px;
     padding: 15px;
   }
 </style>
 
 <div class="main-container">
   <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent1')">Menu 1</div>
+    <div class="menu-title" onclick="toggleMenu('menuContent1')">Box 1</div>
     <div class="menu-content" id="menuContent1">
-      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-1" target="_blank">Box 1</a></p>
+      <p>Description for Box 1</p>
     </div>
   </div>
   <div class="menu">
-    <div class="menu-title" onclick="toggleMenu('menuContent2')">Menu 2</div>
+    <div class="menu-title" onclick="toggleMenu('menuContent2')">Box 2</div>
     <div class="menu-content" id="menuContent2">
-      <p><a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-2/" target="_blank">Box 2</a></p>
+      <p>Description for Box 2</p>
     </div>
   </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent3')">Box 3</div>
+    <div class="menu-content" id="menuContent3">
+      <p>Description for Box 3</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent4')">Box 4</div>
+    <div class="menu-content" id="menuContent4">
+      <p>Description for Box 4</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent5')">Box 5</div>
+    <div class="menu-content" id="menuContent5">
+      <p>Description for Box 5</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent6')">Box 6</div>
+    <div class="menu-content" id="menuContent6">
+      <p>Description for Box 6</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent7')">Box 7</div>
+    <div class="menu-content" id="menuContent7">
+      <p>Description for Box 7</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent8')">Box 8</div>
+    <div class="menu-content" id="menuContent8">
+      <p>Description for Box 8</p>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-title" onclick="toggleMenu('menuContent9')">Box 9</div>
+    <div class="menu-content" id="menuContent9">
+      <p>Description for Box 9</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleMenu(contentId) {
+    const content = document.getElementById(contentId);
+    content.classList.toggle('open');
+  }
+</script>
+
 
 
