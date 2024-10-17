@@ -54,7 +54,7 @@ Nolan's journey starts here - Kickin' Projects
         async>
 </script>
 
-### <!DOCTYPE html>
+
 <html>
 <head>
     <style>
