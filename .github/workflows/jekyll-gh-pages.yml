@@ -38,6 +38,9 @@ jobs:
         with:
           source: ./
           destination: ./_site
+     - name: Debug available actions
+     run: ls -R /home/runner/work/_actions
+
 
       - name: Upload Artifact  # ✅ Fixed artifact issue
         uses: actions/upload-pages-artifact@v1  # ✅ Correct action for GitHub Pages
